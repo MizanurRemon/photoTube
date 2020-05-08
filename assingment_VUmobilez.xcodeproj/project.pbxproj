@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7640312524583F6100C18074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640312424583F6100C18074 /* AppDelegate.swift */; };
+		7640312724583F6100C18074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640312624583F6100C18074 /* SceneDelegate.swift */; };
+		7640312924583F6100C18074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640312824583F6100C18074 /* ViewController.swift */; };
+		7640312C24583F6200C18074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7640312A24583F6200C18074 /* Main.storyboard */; };
+		7640312E24583F6600C18074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7640312D24583F6600C18074 /* Assets.xcassets */; };
+		7640313124583F6600C18074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7640312F24583F6600C18074 /* LaunchScreen.storyboard */; };
+		7640313C24583F6600C18074 /* assingment_VUmobilezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640313B24583F6600C18074 /* assingment_VUmobilezTests.swift */; };
+		7640314724583F6600C18074 /* assingment_VUmobilezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640314624583F6600C18074 /* assingment_VUmobilezUITests.swift */; };
+		76403155245840CE00C18074 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76403154245840CD00C18074 /* GoogleService-Info.plist */; };
+		764031572458AEA600C18074 /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764031562458AEA600C18074 /* customCollectionViewCell.swift */; };
+		76CAA9452458C8F3003FC7F6 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CAA9442458C8F3003FC7F6 /* webViewController.swift */; };
+		DA47BFD040DC80F22A456006 /* Pods_assingment_VUmobilezTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305655A3FC42C91445308B43 /* Pods_assingment_VUmobilezTests.framework */; };
+		EDF6D40909EC6F1137F164D2 /* Pods_assingment_VUmobilez_assingment_VUmobilezUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B91E5B533F29BFFE9143C8 /* Pods_assingment_VUmobilez_assingment_VUmobilezUITests.framework */; };
+		F12A236935E68904106F34BF /* Pods_assingment_VUmobilez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9146448987FF49A79FD686E /* Pods_assingment_VUmobilez.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7640313824583F6600C18074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7640311924583F6100C18074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7640312024583F6100C18074;
+			remoteInfo = assingment_VUmobilez;
+		};
+		7640314324583F6600C18074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7640311924583F6100C18074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7640312024583F6100C18074;
+			remoteInfo = assingment_VUmobilez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305655A3FC42C91445308B43 /* Pods_assingment_VUmobilezTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_assingment_VUmobilezTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7640312124583F6100C18074 /* assingment_VUmobilez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assingment_VUmobilez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7640312424583F6100C18074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7640312624583F6100C18074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7640312824583F6100C18074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7640312B24583F6200C18074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7640312D24583F6600C18074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7640313024583F6600C18074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7640313224583F6600C18074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7640313724583F6600C18074 /* assingment_VUmobilezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assingment_VUmobilezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7640313B24583F6600C18074 /* assingment_VUmobilezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assingment_VUmobilezTests.swift; sourceTree = "<group>"; };
+		7640313D24583F6600C18074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7640314224583F6600C18074 /* assingment_VUmobilezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assingment_VUmobilezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7640314624583F6600C18074 /* assingment_VUmobilezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assingment_VUmobilezUITests.swift; sourceTree = "<group>"; };
+		7640314824583F6600C18074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76403154245840CD00C18074 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		764031562458AEA600C18074 /* customCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
+		76CAA9442458C8F3003FC7F6 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		A79C6AB9B9F57333689A6886 /* Pods-assingment_VUmobilez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assingment_VUmobilez.debug.xcconfig"; path = "Target Support Files/Pods-assingment_VUmobilez/Pods-assingment_VUmobilez.debug.xcconfig"; sourceTree = "<group>"; };
+		B183C73CA86930B08C140D44 /* Pods-assingment_VUmobilez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assingment_VUmobilez.release.xcconfig"; path = "Target Support Files/Pods-assingment_VUmobilez/Pods-assingment_VUmobilez.release.xcconfig"; sourceTree = "<group>"; };
+		B9146448987FF49A79FD686E /* Pods_assingment_VUmobilez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_assingment_VUmobilez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E460BB1ED9A0F6BD481A3E /* Pods-assingment_VUmobilezTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assingment_VUmobilezTests.release.xcconfig"; path = "Target Support Files/Pods-assingment_VUmobilezTests/Pods-assingment_VUmobilezTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3FACA018E9587733AC5B1A2 /* Pods-assingment_VUmobilez-assingment_VUmobilezUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assingment_VUmobilez-assingment_VUmobilezUITests.release.xcconfig"; path = "Target Support Files/Pods-assingment_VUmobilez-assingment_VUmobilezUITests/Pods-assingment_VUmobilez-assingment_VUmobilezUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3B91E5B533F29BFFE9143C8 /* Pods_assingment_VUmobilez_assingment_VUmobilezUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_assingment_VUmobilez_assingment_VUmobilezUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C0FAF891CD0E1EBAC2551D /* Pods-assingment_VUmobilezTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assingment_VUmobilezTests.debug.xcconfig"; path = "Target Support Files/Pods-assingment_VUmobilezTests/Pods-assingment_VUmobilezTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F89C0DD521A46D2DCBD4CD37 /* Pods-assingment_VUmobilez-assingment_VUmobilezUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assingment_VUmobilez-assingment_VUmobilezUITests.debug.xcconfig"; path = "Target Support Files/Pods-assingment_VUmobilez-assingment_VUmobilezUITests/Pods-assingment_VUmobilez-assingment_VUmobilezUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7640311E24583F6100C18074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12A236935E68904106F34BF /* Pods_assingment_VUmobilez.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640313424583F6600C18074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA47BFD040DC80F22A456006 /* Pods_assingment_VUmobilezTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640313F24583F6600C18074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF6D40909EC6F1137F164D2 /* Pods_assingment_VUmobilez_assingment_VUmobilezUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306778CE699D9C1FC4E465FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A79C6AB9B9F57333689A6886 /* Pods-assingment_VUmobilez.debug.xcconfig */,
+				B183C73CA86930B08C140D44 /* Pods-assingment_VUmobilez.release.xcconfig */,
+				F89C0DD521A46D2DCBD4CD37 /* Pods-assingment_VUmobilez-assingment_VUmobilezUITests.debug.xcconfig */,
+				D3FACA018E9587733AC5B1A2 /* Pods-assingment_VUmobilez-assingment_VUmobilezUITests.release.xcconfig */,
+				F7C0FAF891CD0E1EBAC2551D /* Pods-assingment_VUmobilezTests.debug.xcconfig */,
+				C6E460BB1ED9A0F6BD481A3E /* Pods-assingment_VUmobilezTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		369710625B4C28A494C4737A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9146448987FF49A79FD686E /* Pods_assingment_VUmobilez.framework */,
+				E3B91E5B533F29BFFE9143C8 /* Pods_assingment_VUmobilez_assingment_VUmobilezUITests.framework */,
+				305655A3FC42C91445308B43 /* Pods_assingment_VUmobilezTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7640311824583F6100C18074 = {
+			isa = PBXGroup;
+			children = (
+				7640312324583F6100C18074 /* assingment_VUmobilez */,
+				7640313A24583F6600C18074 /* assingment_VUmobilezTests */,
+				7640314524583F6600C18074 /* assingment_VUmobilezUITests */,
+				7640312224583F6100C18074 /* Products */,
+				306778CE699D9C1FC4E465FF /* Pods */,
+				369710625B4C28A494C4737A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7640312224583F6100C18074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7640312124583F6100C18074 /* assingment_VUmobilez.app */,
+				7640313724583F6600C18074 /* assingment_VUmobilezTests.xctest */,
+				7640314224583F6600C18074 /* assingment_VUmobilezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7640312324583F6100C18074 /* assingment_VUmobilez */ = {
+			isa = PBXGroup;
+			children = (
+				7640312424583F6100C18074 /* AppDelegate.swift */,
+				7640312624583F6100C18074 /* SceneDelegate.swift */,
+				7640312A24583F6200C18074 /* Main.storyboard */,
+				76CAA9462458CFAF003FC7F6 /* Controller */,
+				7640312D24583F6600C18074 /* Assets.xcassets */,
+				7640312F24583F6600C18074 /* LaunchScreen.storyboard */,
+				7640313224583F6600C18074 /* Info.plist */,
+				76403154245840CD00C18074 /* GoogleService-Info.plist */,
+			);
+			path = assingment_VUmobilez;
+			sourceTree = "<group>";
+		};
+		7640313A24583F6600C18074 /* assingment_VUmobilezTests */ = {
+			isa = PBXGroup;
+			children = (
+				7640313B24583F6600C18074 /* assingment_VUmobilezTests.swift */,
+				7640313D24583F6600C18074 /* Info.plist */,
+			);
+			path = assingment_VUmobilezTests;
+			sourceTree = "<group>";
+		};
+		7640314524583F6600C18074 /* assingment_VUmobilezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7640314624583F6600C18074 /* assingment_VUmobilezUITests.swift */,
+				7640314824583F6600C18074 /* Info.plist */,
+			);
+			path = assingment_VUmobilezUITests;
+			sourceTree = "<group>";
+		};
+		76CAA9462458CFAF003FC7F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76CAA9442458C8F3003FC7F6 /* webViewController.swift */,
+				7640312824583F6100C18074 /* ViewController.swift */,
+				764031562458AEA600C18074 /* customCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7640312024583F6100C18074 /* assingment_VUmobilez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7640314B24583F6600C18074 /* Build configuration list for PBXNativeTarget "assingment_VUmobilez" */;
+			buildPhases = (
+				1F5375065317A8189C5AA483 /* [CP] Check Pods Manifest.lock */,
+				7640311D24583F6100C18074 /* Sources */,
+				7640311E24583F6100C18074 /* Frameworks */,
+				7640311F24583F6100C18074 /* Resources */,
+				5275D815E11CA84EAD7A80C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = assingment_VUmobilez;
+			productName = assingment_VUmobilez;
+			productReference = 7640312124583F6100C18074 /* assingment_VUmobilez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7640313624583F6600C18074 /* assingment_VUmobilezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7640314E24583F6600C18074 /* Build configuration list for PBXNativeTarget "assingment_VUmobilezTests" */;
+			buildPhases = (
+				A73BD16F6CF1C75ACFD36B49 /* [CP] Check Pods Manifest.lock */,
+				7640313324583F6600C18074 /* Sources */,
+				7640313424583F6600C18074 /* Frameworks */,
+				7640313524583F6600C18074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7640313924583F6600C18074 /* PBXTargetDependency */,
+			);
+			name = assingment_VUmobilezTests;
+			productName = assingment_VUmobilezTests;
+			productReference = 7640313724583F6600C18074 /* assingment_VUmobilezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7640314124583F6600C18074 /* assingment_VUmobilezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7640315124583F6600C18074 /* Build configuration list for PBXNativeTarget "assingment_VUmobilezUITests" */;
+			buildPhases = (
+				AB16B1123FDC5C328A166461 /* [CP] Check Pods Manifest.lock */,
+				7640313E24583F6600C18074 /* Sources */,
+				7640313F24583F6600C18074 /* Frameworks */,
+				7640314024583F6600C18074 /* Resources */,
+				E01EFF26C3169114562F070C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7640314424583F6600C18074 /* PBXTargetDependency */,
+			);
+			name = assingment_VUmobilezUITests;
+			productName = assingment_VUmobilezUITests;
+			productReference = 7640314224583F6600C18074 /* assingment_VUmobilezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7640311924583F6100C18074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Remon;
+				TargetAttributes = {
+					7640312024583F6100C18074 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7640313624583F6600C18074 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7640312024583F6100C18074;
+					};
+					7640314124583F6600C18074 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7640312024583F6100C18074;
+					};
+				};
+			};
+			buildConfigurationList = 7640311C24583F6100C18074 /* Build configuration list for PBXProject "assingment_VUmobilez" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7640311824583F6100C18074;
+			productRefGroup = 7640312224583F6100C18074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7640312024583F6100C18074 /* assingment_VUmobilez */,
+				7640313624583F6600C18074 /* assingment_VUmobilezTests */,
+				7640314124583F6600C18074 /* assingment_VUmobilezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7640311F24583F6100C18074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7640313124583F6600C18074 /* LaunchScreen.storyboard in Resources */,
+				76403155245840CE00C18074 /* GoogleService-Info.plist in Resources */,
+				7640312E24583F6600C18074 /* Assets.xcassets in Resources */,
+				7640312C24583F6200C18074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640313524583F6600C18074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640314024583F6600C18074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5375065317A8189C5AA483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-assingment_VUmobilez-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5275D815E11CA84EAD7A80C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assingment_VUmobilez/Pods-assingment_VUmobilez-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assingment_VUmobilez/Pods-assingment_VUmobilez-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-assingment_VUmobilez/Pods-assingment_VUmobilez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73BD16F6CF1C75ACFD36B49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-assingment_VUmobilezTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB16B1123FDC5C328A166461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-assingment_VUmobilez-assingment_VUmobilezUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01EFF26C3169114562F070C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assingment_VUmobilez-assingment_VUmobilezUITests/Pods-assingment_VUmobilez-assingment_VUmobilezUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assingment_VUmobilez-assingment_VUmobilezUITests/Pods-assingment_VUmobilez-assingment_VUmobilezUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-assingment_VUmobilez-assingment_VUmobilezUITests/Pods-assingment_VUmobilez-assingment_VUmobilezUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7640311D24583F6100C18074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CAA9452458C8F3003FC7F6 /* webViewController.swift in Sources */,
+				7640312924583F6100C18074 /* ViewController.swift in Sources */,
+				7640312524583F6100C18074 /* AppDelegate.swift in Sources */,
+				7640312724583F6100C18074 /* SceneDelegate.swift in Sources */,
+				764031572458AEA600C18074 /* customCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640313324583F6600C18074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7640313C24583F6600C18074 /* assingment_VUmobilezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640313E24583F6600C18074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7640314724583F6600C18074 /* assingment_VUmobilezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7640313924583F6600C18074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7640312024583F6100C18074 /* assingment_VUmobilez */;
+			targetProxy = 7640313824583F6600C18074 /* PBXContainerItemProxy */;
+		};
+		7640314424583F6600C18074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7640312024583F6100C18074 /* assingment_VUmobilez */;
+			targetProxy = 7640314324583F6600C18074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7640312A24583F6200C18074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7640312B24583F6200C18074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7640312F24583F6600C18074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7640313024583F6600C18074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7640314924583F6600C18074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7640314A24583F6600C18074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7640314C24583F6600C18074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79C6AB9B9F57333689A6886 /* Pods-assingment_VUmobilez.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = assingment_VUmobilez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "remon.assingment-VUmobilez";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7640314D24583F6600C18074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B183C73CA86930B08C140D44 /* Pods-assingment_VUmobilez.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = assingment_VUmobilez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "remon.assingment-VUmobilez";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7640314F24583F6600C18074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C0FAF891CD0E1EBAC2551D /* Pods-assingment_VUmobilezTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = assingment_VUmobilezTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "remon.assingment-VUmobilezTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/assingment_VUmobilez.app/assingment_VUmobilez";
+			};
+			name = Debug;
+		};
+		7640315024583F6600C18074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E460BB1ED9A0F6BD481A3E /* Pods-assingment_VUmobilezTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = assingment_VUmobilezTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "remon.assingment-VUmobilezTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/assingment_VUmobilez.app/assingment_VUmobilez";
+			};
+			name = Release;
+		};
+		7640315224583F6600C18074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89C0DD521A46D2DCBD4CD37 /* Pods-assingment_VUmobilez-assingment_VUmobilezUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = assingment_VUmobilezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "remon.assingment-VUmobilezUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = assingment_VUmobilez;
+			};
+			name = Debug;
+		};
+		7640315324583F6600C18074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FACA018E9587733AC5B1A2 /* Pods-assingment_VUmobilez-assingment_VUmobilezUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = assingment_VUmobilezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "remon.assingment-VUmobilezUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = assingment_VUmobilez;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7640311C24583F6100C18074 /* Build configuration list for PBXProject "assingment_VUmobilez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7640314924583F6600C18074 /* Debug */,
+				7640314A24583F6600C18074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7640314B24583F6600C18074 /* Build configuration list for PBXNativeTarget "assingment_VUmobilez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7640314C24583F6600C18074 /* Debug */,
+				7640314D24583F6600C18074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7640314E24583F6600C18074 /* Build configuration list for PBXNativeTarget "assingment_VUmobilezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7640314F24583F6600C18074 /* Debug */,
+				7640315024583F6600C18074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7640315124583F6600C18074 /* Build configuration list for PBXNativeTarget "assingment_VUmobilezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7640315224583F6600C18074 /* Debug */,
+				7640315324583F6600C18074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7640311924583F6100C18074 /* Project object */;
+}

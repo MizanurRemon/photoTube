@@ -1,0 +1,6 @@
+framework module Pods_assingment_VUmobilez_assingment_VUmobilezUITests {
+  umbrella header "Pods-assingment_VUmobilez-assingment_VUmobilezUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

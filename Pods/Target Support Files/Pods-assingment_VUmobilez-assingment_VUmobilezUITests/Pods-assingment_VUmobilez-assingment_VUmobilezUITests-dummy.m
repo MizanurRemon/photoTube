@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_assingment_VUmobilez_assingment_VUmobilezUITests : NSObject
+@end
+@implementation PodsDummy_Pods_assingment_VUmobilez_assingment_VUmobilezUITests
+@end
